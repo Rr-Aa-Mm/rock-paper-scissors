@@ -81,8 +81,16 @@ button {
 
 .section {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: center;
 }
+
+.turtleDiv {
+  display: flex;
+  flex-direction: row;
+}
+
+
 .section--1 {
   background-color: var(--bg-dark);
   padding-block: var(--space-2) var(--space-4);
@@ -240,17 +248,15 @@ button {
   background-color: transparent;
   border: 2px solid var(--txt-grey);
 }/*# sourceMappingURL=style.css.map */
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
+
+.lightBlue {
+  background-color: aquamarine;
+}
+
+.titleBackground {
+  background-color: blanchedalmond;
+}
+
+.twilight {
+  background-color: #39CCCC;
+}
